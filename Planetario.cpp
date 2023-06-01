@@ -1,11 +1,16 @@
 /*
-Projeto de : Cauã Tavares Nunes,
+Projeto de : CauÃ£ Tavares Nunes,
 Atividade de Hierarquia de Objetos em OpenGl
-Créditos de artigo base : http://titan.csit.rmit.edu.au/~e20068/teaching/i3dg&a/2015/hierarchical-modelling.html
+CrÃ©ditos de artigo base : http://titan.csit.rmit.edu.au/~e20068/teaching/i3dg&a/2015/hierarchical-modelling.html
 */
 
 /*
-* 
+ Para usar: 'q' -> move tudo em sentido anti-horario
+ 'Q' -> move tudo em sentido horario
+ 'w' -> move tudo em sentido anti-horario
+ 'W' -> move tudo em sentido horario
+ 'e' -> move tudo em sentido anti-horario
+ 'E' -> move tudo em sentido horario
 */
 
 #include <GL/glew.h>
