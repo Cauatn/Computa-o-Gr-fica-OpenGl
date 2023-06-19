@@ -1,0 +1,17 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: O diretório intermediário (Debug\) contém arquivos compartilhados de outro projeto (openGLfreeGLUT.vcxproj). Isso pode levar a um comportamento incorreto de limpeza e recompilação.
+  openGLfreeGLUT.cpp
+C:\Users\Cauã\OneDrive\Área de Trabalho\UNIVASF\openGLfreeGLUT\openGLfreeGLUT.cpp(30,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\Cauã\OneDrive\Área de Trabalho\UNIVASF\openGLfreeGLUT\openGLfreeGLUT.cpp(33,32): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\Cauã\OneDrive\Área de Trabalho\UNIVASF\openGLfreeGLUT\openGLfreeGLUT.cpp(35,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\Cauã\OneDrive\Área de Trabalho\UNIVASF\openGLfreeGLUT\openGLfreeGLUT.cpp(38,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\Cauã\OneDrive\Área de Trabalho\UNIVASF\openGLfreeGLUT\openGLfreeGLUT.cpp(41,32): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\Cauã\OneDrive\Área de Trabalho\UNIVASF\openGLfreeGLUT\openGLfreeGLUT.cpp(43,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\Cauã\OneDrive\Área de Trabalho\UNIVASF\openGLfreeGLUT\openGLfreeGLUT.cpp(46,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\Cauã\OneDrive\Área de Trabalho\UNIVASF\openGLfreeGLUT\openGLfreeGLUT.cpp(53,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\Cauã\OneDrive\Área de Trabalho\UNIVASF\openGLfreeGLUT\openGLfreeGLUT.cpp(56,32): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\Cauã\OneDrive\Área de Trabalho\UNIVASF\openGLfreeGLUT\openGLfreeGLUT.cpp(58,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\Cauã\OneDrive\Área de Trabalho\UNIVASF\openGLfreeGLUT\openGLfreeGLUT.cpp(60,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\Cauã\OneDrive\Área de Trabalho\UNIVASF\openGLfreeGLUT\openGLfreeGLUT.cpp(63,32): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\Cauã\OneDrive\Área de Trabalho\UNIVASF\openGLfreeGLUT\openGLfreeGLUT.cpp(65,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+C:\Users\Cauã\OneDrive\Área de Trabalho\UNIVASF\openGLfreeGLUT\openGLfreeGLUT.cpp(67,31): warning C4305: 'argumento': truncamento de 'double' para 'GLfloat'
+  openGLfreeGLUT.vcxproj -> C:\Users\Cauã\OneDrive\Área de Trabalho\UNIVASF\openGLfreeGLUT\Debug\Planetario.exe
