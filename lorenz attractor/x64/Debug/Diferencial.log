@@ -1,0 +1,38 @@
+﻿  main.cpp
+main.obj : error LNK2019: símbolo externo não resolvido, __imp_glewInit, referenciado na função main
+Window.obj : error LNK2001: símbolo externo não resolvido __imp_glewInit
+main.obj : error LNK2019: símbolo externo não resolvido, glfwInit, referenciado na função main
+Window.obj : error LNK2001: símbolo externo não resolvido glfwInit
+main.obj : error LNK2019: símbolo externo não resolvido, glfwTerminate, referenciado na função main
+Window.obj : error LNK2001: símbolo externo não resolvido glfwTerminate
+main.obj : error LNK2019: símbolo externo não resolvido, glfwCreateWindow, referenciado na função main
+Window.obj : error LNK2001: símbolo externo não resolvido glfwCreateWindow
+main.obj : error LNK2019: símbolo externo não resolvido, glfwWindowShouldClose, referenciado na função main
+main.obj : error LNK2019: símbolo externo não resolvido, glfwPollEvents, referenciado na função main
+main.obj : error LNK2019: símbolo externo não resolvido, glfwMakeContextCurrent, referenciado na função main
+Window.obj : error LNK2001: símbolo externo não resolvido glfwMakeContextCurrent
+main.obj : error LNK2019: símbolo externo não resolvido, glfwSwapBuffers, referenciado na função main
+main.obj : error LNK2019: símbolo externo não resolvido, __imp___glewBindBuffer, referenciado na função "void __cdecl createTriangle(void)" (?createTriangle@@YAXXZ)
+main.obj : error LNK2019: símbolo externo não resolvido, __imp___glewBufferData, referenciado na função "void __cdecl createTriangle(void)" (?createTriangle@@YAXXZ)
+main.obj : error LNK2019: símbolo externo não resolvido, __imp___glewGenBuffers, referenciado na função "void __cdecl createTriangle(void)" (?createTriangle@@YAXXZ)
+main.obj : error LNK2019: símbolo externo não resolvido, __imp___glewAttachShader, referenciado na função "unsigned int __cdecl createShaders(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?createShaders@@YAIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+main.obj : error LNK2019: símbolo externo não resolvido, __imp___glewCompileShader, referenciado na função "unsigned int __cdecl compileShader(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?compileShader@@YAIIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+main.obj : error LNK2019: símbolo externo não resolvido, __imp___glewCreateProgram, referenciado na função "unsigned int __cdecl createShaders(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?createShaders@@YAIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+main.obj : error LNK2019: símbolo externo não resolvido, __imp___glewCreateShader, referenciado na função "unsigned int __cdecl compileShader(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?compileShader@@YAIIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+main.obj : error LNK2019: símbolo externo não resolvido, __imp___glewDeleteShader, referenciado na função "unsigned int __cdecl createShaders(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?createShaders@@YAIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+main.obj : error LNK2019: símbolo externo não resolvido, __imp___glewEnableVertexAttribArray, referenciado na função "void __cdecl createTriangle(void)" (?createTriangle@@YAXXZ)
+main.obj : error LNK2019: símbolo externo não resolvido, __imp___glewGetShaderiv, referenciado na função "unsigned int __cdecl compileShader(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?compileShader@@YAIIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+main.obj : error LNK2019: símbolo externo não resolvido, __imp___glewLinkProgram, referenciado na função "unsigned int __cdecl createShaders(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?createShaders@@YAIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+main.obj : error LNK2019: símbolo externo não resolvido, __imp___glewShaderSource, referenciado na função "unsigned int __cdecl compileShader(unsigned int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?compileShader@@YAIIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+main.obj : error LNK2019: símbolo externo não resolvido, __imp___glewUseProgram, referenciado na função "void __cdecl createTriangle(void)" (?createTriangle@@YAXXZ)
+main.obj : error LNK2019: símbolo externo não resolvido, __imp___glewValidateProgram, referenciado na função "unsigned int __cdecl createShaders(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?createShaders@@YAIAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+main.obj : error LNK2019: símbolo externo não resolvido, __imp___glewVertexAttribPointer, referenciado na função "void __cdecl createTriangle(void)" (?createTriangle@@YAXXZ)
+Window.obj : error LNK2019: símbolo externo não resolvido, __imp_glewGetErrorString, referenciado na função "public: int __cdecl Window::Initialise(void)" (?Initialise@Window@@QEAAHXZ)
+Window.obj : error LNK2019: símbolo externo não resolvido, glfwWindowHint, referenciado na função "public: int __cdecl Window::Initialise(void)" (?Initialise@Window@@QEAAHXZ)
+Window.obj : error LNK2019: símbolo externo não resolvido, glfwDestroyWindow, referenciado na função "public: __cdecl Window::~Window(void)" (??1Window@@QEAA@XZ)
+Window.obj : error LNK2019: símbolo externo não resolvido, glfwGetFramebufferSize, referenciado na função "public: int __cdecl Window::Initialise(void)" (?Initialise@Window@@QEAAHXZ)
+Window.obj : error LNK2019: símbolo externo não resolvido, __imp_glewExperimental, referenciado na função "public: int __cdecl Window::Initialise(void)" (?Initialise@Window@@QEAAHXZ)
+C:\Users\Cauã\OneDrive\Área de Trabalho\lib\glew-2.2.0\lib\Release\Win32\glew32.lib : warning LNK4272: o tipo de máquina da biblioteca 'x86' está em conflito com o tipo de máquina de destino 'x64'
+C:\Users\Cauã\OneDrive\Área de Trabalho\lib\glfw-3.3.8.bin.WIN32\lib-vc2022\glfw3.lib : warning LNK4272: o tipo de máquina da biblioteca 'x86' está em conflito com o tipo de máquina de destino 'x64'
+C:\Users\Cauã\OneDrive\Área de Trabalho\lib\freeglut\lib\freeglut.lib : warning LNK4272: o tipo de máquina da biblioteca 'x86' está em conflito com o tipo de máquina de destino 'x64'
+C:\Users\Cauã\OneDrive\Área de Trabalho\UNIVASF\Diferencial\x64\Debug\Diferencial.exe : fatal error LNK1120: 28 externo não resolvidos

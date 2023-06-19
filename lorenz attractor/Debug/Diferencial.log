@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\Cauã\OneDrive\Área de Trabalho\UNIVASF\Diferencial\main.cpp(19,15): warning C4305: 'inicializando': truncamento de 'double' para 'float'
+C:\Users\Cauã\OneDrive\Área de Trabalho\UNIVASF\Diferencial\main.cpp(59,22): warning C4244: 'argumento': conversão de 'float' para 'GLint', possível perda de dados
+C:\Users\Cauã\OneDrive\Área de Trabalho\UNIVASF\Diferencial\main.cpp(59,16): warning C4244: 'argumento': conversão de 'float' para 'GLint', possível perda de dados
+C:\Users\Cauã\OneDrive\Área de Trabalho\UNIVASF\Diferencial\main.cpp(66,15): warning C4305: '=': truncamento de 'double' para 'float'
+  Diferencial.vcxproj -> C:\Users\Cauã\OneDrive\Área de Trabalho\UNIVASF\Diferencial\Debug\Diferencial.exe
