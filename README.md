@@ -2,6 +2,28 @@
 
 Repositrio feito para mostrar e divulgar projetos proprios feitos para a materia de Computação Grafica pela Univasf
 
+# Como executar os projetos com OPENGL:
+
+1. Faça o download do projeto que quer utilizar
+
+2. Dentro da pasta do projeto, procure a pasta "Debug" e execute o arquivo de extensão ".exe" (ex: "HelloWorldGL.exe")
+
+Caso queira fazer modificações, abra o arquivo de extensão .sln para visualizá-lo no Visual Studio e siga os passos 1, 2 e 3 na seção de configuração do OPENGL logo abaixo
+
+# Como criar e/ou configurar seu projeto OPENGL no Visual Studio:
+
+__Criar:__
+
+1. Abra o Visual Studio e crie um novo projeto vazio
+
+	File > New > Project > Visual C++ > Empty Project
+
+	Defina um nome para o projeto (ex: "HelloWorld") e clique em 'OK'
+
+2. No 'Solution Explorer' (normalmente na lateral direita), clique com o botão direito sobre a opção 'Source Files', e em seguida selecione Add > New Item
+
+3. Na janela que abrir, selecione 'C++ file', nomeie o arquivo (ex: "main.cpp") e clique em 'Add'
+
 <h2> Planetario  </h2>
 
 Objeto gráfico em OpenGl, feito para demonstrar como a hierarquia e transformações funcionam na Glut, utilizando as funçõees pushMatrix() e PopMatrix da biblioteca FreeGlut.
