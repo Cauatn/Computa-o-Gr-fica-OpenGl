@@ -1,7 +1,7 @@
 /*
-Projeto de : Cau„ Tavares Nunes,
+Projeto de : Cau√£ Tavares Nunes,
 Atividade de Hierarquia de Objetos em OpenGl
-CrÈditos de artigo base : http://titan.csit.rmit.edu.au/~e20068/teaching/i3dg&a/2015/hierarchical-modelling.html
+Cr√©ditos de artigo base : http://titan.csit.rmit.edu.au/~e20068/teaching/i3dg&a/2015/hierarchical-modelling.html
 */
 
 /*
