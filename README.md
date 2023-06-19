@@ -9,6 +9,8 @@ Objeto gráfico em OpenGl, feito para demonstrar como a hierarquia e transforma�
 
 ![2023-06-15-08-32-44](https://github.com/Cauatn/Computacao-Grafica-OpenGl/assets/39890456/341779a3-8972-47e3-b309-d490415def69)
 
+<h3> Diferencial </h3>
+
 # Como executar os projetos com OPENGL:
 
 1. Faça o download do projeto que quer utilizar
@@ -16,8 +18,6 @@ Objeto gráfico em OpenGl, feito para demonstrar como a hierarquia e transforma�
 2. Dentro da pasta do projeto, procure a pasta "Debug" e execute o arquivo de extensão ".exe" (ex: "HelloWorldGL.exe")
 
 Caso queira fazer modificações, abra o arquivo de extensão .sln para visualizá-lo no Visual Studio e siga os passos 1, 2 e 3 na seção de configuração do OPENGL logo abaixo
-
-<h3> Diferencial </h3>
 
 # Como criar e/ou configurar seu projeto OPENGL no Visual Studio:
 
