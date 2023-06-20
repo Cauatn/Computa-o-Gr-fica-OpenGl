@@ -5,11 +5,15 @@ No final deste arquivo ReadMe, possuirá um passo a passo de como executar os pr
 
 <h1> Planetario </h1>
 
-Objeto gráfico em OpenGl, feito para demonstrar como a hierarquia e transformações funcionam na Glut, utilizando as funçõees pushMatrix() e PopMatrix da biblioteca FreeGlut.
+Projeto gráfico OpenGl, feito para demonstrar como a hierarquia e transformações funcionam na Glut, utilizando as funçõees pushMatrix() e PopMatrix da biblioteca FreeGlut.
 
 ![2023-06-15-08-32-44](https://github.com/Cauatn/Computacao-Grafica-OpenGl/assets/39890456/341779a3-8972-47e3-b309-d490415def69)
 
-<h3> Diferencial </h3>
+<h1> Lorenz attractor </h1>
+
+Projeto OpenGl que recria o sistema de equação de Lorenz
+
+![esse](https://github.com/Cauatn/OpenGl-Univasf-CG/assets/39890456/a9729b3e-089e-4f18-9d51-395853db9289)
 
 # Como executar os projetos com OPENGL:
 
