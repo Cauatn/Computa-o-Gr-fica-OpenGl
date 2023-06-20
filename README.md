@@ -3,7 +3,7 @@
 Repositrio feito para mostrar e divulgar projetos proprios feitos para a materia de Computação Grafica pela Univasf
 No final deste arquivo ReadMe, possuirá um passo a passo de como executar os projetos a seguir.
 
-<h2> Planetario  </h2>
+<h1> Planetario </h1>
 
 Objeto gráfico em OpenGl, feito para demonstrar como a hierarquia e transformações funcionam na Glut, utilizando as funçõees pushMatrix() e PopMatrix da biblioteca FreeGlut.
 
