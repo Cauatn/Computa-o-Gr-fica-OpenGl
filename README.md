@@ -5,7 +5,7 @@ No final deste arquivo ReadMe, possuirá um passo a passo de como executar os pr
 
 <h1> Planetario </h1>
 
-Projeto gráfico OpenGl, feito para demonstrar como a hierarquia e transformações funcionam na Glut, utilizando as funçõees pushMatrix() e PopMatrix da biblioteca FreeGlut.
+Projeto gráfico OpenGl, feito para demonstrar como a hierarquia e transformações funcionam na Glut, utilizando as funçõees pushMatrix() e PopMatrix() da biblioteca FreeGlut.
 
 ![2023-06-15-08-32-44](https://github.com/Cauatn/Computacao-Grafica-OpenGl/assets/39890456/341779a3-8972-47e3-b309-d490415def69)
 
