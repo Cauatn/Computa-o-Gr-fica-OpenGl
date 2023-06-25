@@ -7,16 +7,12 @@
 #include <GL\glew.h>
 #include <GLFW\glfw3.h>
 
-#include <glm\glm.hpp>
-#include <glm\gtc\matrix_transform.hpp>
-#include <glm\gtc\type_ptr.hpp>
-
 #include <iostream>
 
 #define SCREEN_WIDTH 800
 #define SCREEN_HEIGHT 600
 
-float x = 0.01, y, z;
+float x = 0.01f, y, z;
 float dx, dy, dz, dt;
 int a = 10, b = 28, c = 8 / 3;
 
@@ -25,7 +21,6 @@ GLfloat rotationY = 0.0f;
 
 GLfloat pointVertex[] = { 0,0,0 };
 
-void handleKeys(GLFWwindow* Window, int key, int code, int action, int mode);
 void drawPoint();
 
 int main(void)
@@ -51,8 +46,6 @@ int main(void)
     // Make the window's context current
     glfwMakeContextCurrent(window);
 
-    //Get the Input + Mouse Input
-    glfwSetKeyCallback(window, handleKeys);
 
     //glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
 
@@ -63,15 +56,15 @@ int main(void)
     glMatrixMode(GL_MODELVIEW); // (default matrix mode) modelview matrix defines how your objects are transformed (meaning translation, rotation and scaling) in your world
     glLoadIdentity(); // same as above comment
 
-    dt = 0.001;
+    dt = 0.001f;
 
     glTranslatef(400, 300, 0);
-    glScalef(11,11,0);
+    glScalef(11, 11, 0);
 
     // Loop until the user closes the window
     while (!glfwWindowShouldClose(window))
     {
-        
+
         //Calcula as coordenadas do ponto
         dx = (a * (y - x)) * dt;
         dy = ((x * (b - z) - y)) * dt;
@@ -84,11 +77,9 @@ int main(void)
         pointVertex[1] = y;
         pointVertex[2] = z;
 
-        //glClear(GL_COLOR_BUFFER_BIT);
-
         // Render OpenGL here
         drawPoint();
-
+        
         // Swap front and back buffers
         glfwSwapBuffers(window);
 
@@ -110,35 +101,4 @@ void drawPoint()
     glDrawArrays(GL_POINTS, 0, 1); // draw the vertixes
     glDisableClientState(GL_VERTEX_ARRAY); // tell OpenGL that you're finished using the vertex arrayattribute
     glDisable(GL_POINT); // stop the smoothing to make the points circular
-}
-
-void handleKeys(GLFWwindow* window, int key, int scancode, int action, int mods)
-{
-
-    const GLfloat rotationSpeed = 10;
-
-    if (action == GLFW_PRESS || action == GLFW_REPEAT)
-    {
-        if (key == GLFW_KEY_UP)
-        {
-            rotationX -= rotationSpeed;
-            std::cout << "Tecla pressionada : CIMA" << "\n";
-        }
-        if (key == GLFW_KEY_DOWN)
-        {
-            rotationX += rotationSpeed;
-            std::cout << "Tecla pressionada : BAIXO" << "\n";
-        }
-        if (key == GLFW_KEY_LEFT)
-        {
-            rotationY += rotationSpeed;
-            std::cout << "Tecla pressionada : ESQUERDA" << "\n";
-        }
-        if (key == GLFW_KEY_RIGHT)
-        {
-            rotationY -= rotationSpeed;
-            std::cout << "Tecla pressionada : DIREITA" << "\n";
-        }
-    }
-    
 }
