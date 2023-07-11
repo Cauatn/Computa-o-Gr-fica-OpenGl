@@ -1,0 +1,3 @@
+C:\Users\Cauã\OneDrive\Área de Trabalho\UNIVASF\openGLfreeGLUT\Debug\Planetario.exe
+C:\Users\Cauã\OneDrive\Área de Trabalho\UNIVASF\Planetario\Debug\Planetario.exe
+C:\Users\Cauã\OneDrive\Área de Trabalho\UNIVASF\Snake Game\Debug\Planetario.exe

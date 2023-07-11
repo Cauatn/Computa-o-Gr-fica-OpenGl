@@ -1,0 +1,2 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: O diretório intermediário (Debug\) contém arquivos compartilhados de outro projeto (openGLfreeGLUT.vcxproj). Isso pode levar a um comportamento incorreto de limpeza e recompilação.
+  openGLfreeGLUT.vcxproj -> C:\Users\Cauã\OneDrive\Área de Trabalho\UNIVASF\Snake Game\Debug\Planetario.exe
